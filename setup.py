@@ -2,7 +2,7 @@ import os
 from glob import glob
 from setuptools import find_packages, setup
 
-package_name = 'gentact_ros_tools'
+package_name = 'gentact_ros_tools_fp'
 
 setup(
     name=package_name,

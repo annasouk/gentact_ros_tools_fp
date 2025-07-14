@@ -11,16 +11,20 @@ def generate_launch_description():
     use_sim_time = LaunchConfiguration('use_sim_time', default='false')
     
     # Generate URDF from xacro file (or read URDF file)
-    urdf_file = PathJoinSubstitution([FindPackageShare('gentact_ros_tools'), 'urdf', 'link5.xacro'])
+    urdf_file = PathJoinSubstitution([FindPackageShare('gentact_ros_tools_fp'), 'urdf', 'link5.xacro'])
     robot_description = ParameterValue(Command(['xacro ', urdf_file, ' namespace:=link5']), value_type=str)
 
     # Create nodes
+    """
+    Uncomment if using foxglove
+
     foxglove_bridge_node = Node(
         package='foxglove_bridge',
         executable='foxglove_bridge',
         name='foxglove_bridge',
         output='screen',
     )
+    """
 
     robot_state_publisher_node = Node(
         package='robot_state_publisher',
@@ -43,7 +47,7 @@ def generate_launch_description():
             'use_sim_time',
             default_value='false',
             description='Use simulation (Gazebo) clock if true'),
-        foxglove_bridge_node,
+        #foxglove_bridge_node,
         TimerAction(period=2.0, actions=[robot_state_publisher_node]),  # 2 second delay
         TimerAction(period=4.0, actions=[static_transform_publisher_node]),  # 4 second delay
     ])

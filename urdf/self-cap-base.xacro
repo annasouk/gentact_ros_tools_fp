@@ -31,13 +31,13 @@
   <!-- Self Capacitance Proximity Sensor -->
   <xacro:macro name="self_cap_sensor"
     params="robot_namespace parent sensor_number sensor_radius sensor_length normal_x normal_y normal_z *origin">
-    <joint name="${robot_namespace}/sensor_${sensor_number}_joint" type="fixed">
+    <joint name="${robot_namespace}/fr3_link5/sensor_${sensor_number}_joint" type="fixed">
       <xacro:insert_block name="origin" />
       <axis xyz="${normal_x} ${normal_y} ${normal_z}" />
       <parent link="${parent}" />
-      <child link="${robot_namespace}/sensor_${sensor_number}" />
+      <child link="fr3_link5/sensor_${sensor_number}" />
     </joint>
-    <link name="${robot_namespace}/sensor_${sensor_number}">
+    <link name="fr3_link5/sensor_${sensor_number}">
       <visual>
         <geometry>
           <sphere radius="${sensor_radius}" /> <!-- [m] -->

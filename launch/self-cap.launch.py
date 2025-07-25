@@ -42,12 +42,33 @@ def generate_launch_description():
         arguments=['0', '0', '0', '0', '0', '0', 'map', 'link5/base_link']
     )
 
+    rviz_node = Node(
+        package='rviz2',
+        executable='rviz2',
+        name='rviz2'
+    )
+
+    tof_listener = Node(
+        package='udp_tof_listener',
+        executable='udp_grid_listener_array',
+        name='tof_listener'
+    )
+
+    pointcloud_talker = Node(
+        package='pointcloud',
+        executable='talker',
+        name='tof_talker'
+    )
+
     return LaunchDescription([
         DeclareLaunchArgument(
             'use_sim_time',
             default_value='false',
             description='Use simulation (Gazebo) clock if true'),
         #foxglove_bridge_node,
-        TimerAction(period=2.0, actions=[robot_state_publisher_node]),  # 2 second delay
-        TimerAction(period=4.0, actions=[static_transform_publisher_node]),  # 4 second delay
+        TimerAction(period=1.0, actions=[robot_state_publisher_node]),  # 2 second delay
+        TimerAction(period=2.0, actions=[static_transform_publisher_node]),  # 4 second delay
+        TimerAction(period=3.0, actions=[tof_listener]),  # 4 second delay
+        TimerAction(period=4.0, actions=[pointcloud_talker]),  # 4 second delay
+        TimerAction(period=5.0, actions=[rviz_node]),  # 4 second delay
     ])

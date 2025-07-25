@@ -1,0 +1,90 @@
+[0.218s] DEBUG:colcon:Command line arguments: ['/home/caleb/.local/bin/colcon', 'build']
+[0.218s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fe3978a9040>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=16, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fe3978a9040>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fe3977e9f10>)
+[0.369s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.369s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.369s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.369s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.369s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.369s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.370s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/caleb/ros2_ws/src/gentact_ros_tools_fp'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.396s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'gentact_ros_tools_fp'
+[0.396s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.396s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.396s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.396s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.396s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.408s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.408s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.409s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/caleb/ros2_ws/install
+[0.410s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 272 installed packages in /opt/ros/foxy
+[0.411s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'gentact_ros_tools_fp' build argument 'cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'gentact_ros_tools_fp' build argument 'cmake_target' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'gentact_ros_tools_fp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'gentact_ros_tools_fp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'gentact_ros_tools_fp' build argument 'cmake_clean_first' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'gentact_ros_tools_fp' build argument 'cmake_force_configure' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'gentact_ros_tools_fp' build argument 'ament_cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'gentact_ros_tools_fp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'gentact_ros_tools_fp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.453s] DEBUG:colcon.colcon_core.verb:Building package 'gentact_ros_tools_fp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/caleb/ros2_ws/src/gentact_ros_tools_fp/build/gentact_ros_tools_fp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/gentact_ros_tools_fp', 'merge_install': False, 'path': '/home/caleb/ros2_ws/src/gentact_ros_tools_fp', 'symlink_install': False, 'test_result_base': None}
+[0.453s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.454s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.454s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/caleb/ros2_ws/src/gentact_ros_tools_fp' with build type 'ament_python'
+[0.454s] Level 1:colcon.colcon_core.shell:create_environment_hook('gentact_ros_tools_fp', 'ament_prefix_path')
+[0.456s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/gentact_ros_tools_fp/share/gentact_ros_tools_fp/hook/ament_prefix_path.ps1'
+[0.457s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/gentact_ros_tools_fp/share/gentact_ros_tools_fp/hook/ament_prefix_path.dsv'
+[0.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/gentact_ros_tools_fp/share/gentact_ros_tools_fp/hook/ament_prefix_path.sh'
+[0.457s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.457s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.686s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/caleb/ros2_ws/src/gentact_ros_tools_fp'
+[0.687s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.687s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.122s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/caleb/ros2_ws/src/gentact_ros_tools_fp': PROMPT_COMMAND=history -a; history -n; PYTHONPATH=/home/caleb/ros2_ws/src/gentact_ros_tools_fp/build/gentact_ros_tools_fp/prefix_override:/home/caleb/.local/lib/python3.8/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/gentact_ros_tools_fp/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/gentact_ros_tools_fp build --build-base /home/caleb/ros2_ws/src/gentact_ros_tools_fp/build/gentact_ros_tools_fp/build install --record /home/caleb/ros2_ws/src/gentact_ros_tools_fp/build/gentact_ros_tools_fp/install.log --single-version-externally-managed install_data
+[1.387s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/caleb/ros2_ws/src/gentact_ros_tools_fp' returned '0': PROMPT_COMMAND=history -a; history -n; PYTHONPATH=/home/caleb/ros2_ws/src/gentact_ros_tools_fp/build/gentact_ros_tools_fp/prefix_override:/home/caleb/.local/lib/python3.8/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/gentact_ros_tools_fp/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/gentact_ros_tools_fp build --build-base /home/caleb/ros2_ws/src/gentact_ros_tools_fp/build/gentact_ros_tools_fp/build install --record /home/caleb/ros2_ws/src/gentact_ros_tools_fp/build/gentact_ros_tools_fp/install.log --single-version-externally-managed install_data
+[1.389s] Level 1:colcon.colcon_core.environment:checking '/home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/gentact_ros_tools_fp' for CMake module files
+[1.389s] Level 1:colcon.colcon_core.environment:checking '/home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/gentact_ros_tools_fp' for CMake config files
+[1.390s] Level 1:colcon.colcon_core.environment:checking '/home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/gentact_ros_tools_fp/lib'
+[1.390s] Level 1:colcon.colcon_core.environment:checking '/home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/gentact_ros_tools_fp/bin'
+[1.390s] Level 1:colcon.colcon_core.environment:checking '/home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/gentact_ros_tools_fp/lib/pkgconfig/gentact_ros_tools_fp.pc'
+[1.390s] Level 1:colcon.colcon_core.environment:checking '/home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/gentact_ros_tools_fp/lib/python3.8/site-packages'
+[1.390s] Level 1:colcon.colcon_core.shell:create_environment_hook('gentact_ros_tools_fp', 'pythonpath')
+[1.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/gentact_ros_tools_fp/share/gentact_ros_tools_fp/hook/pythonpath.ps1'
+[1.391s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/gentact_ros_tools_fp/share/gentact_ros_tools_fp/hook/pythonpath.dsv'
+[1.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/gentact_ros_tools_fp/share/gentact_ros_tools_fp/hook/pythonpath.sh'
+[1.392s] Level 1:colcon.colcon_core.environment:checking '/home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/gentact_ros_tools_fp/bin'
+[1.392s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gentact_ros_tools_fp)
+[1.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/gentact_ros_tools_fp/share/gentact_ros_tools_fp/package.ps1'
+[1.392s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/gentact_ros_tools_fp/share/gentact_ros_tools_fp/package.dsv'
+[1.393s] INFO:colcon.colcon_core.shell:Creating package script '/home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/gentact_ros_tools_fp/share/gentact_ros_tools_fp/package.sh'
+[1.393s] INFO:colcon.colcon_core.shell:Creating package script '/home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/gentact_ros_tools_fp/share/gentact_ros_tools_fp/package.bash'
+[1.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/gentact_ros_tools_fp/share/gentact_ros_tools_fp/package.zsh'
+[1.394s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/gentact_ros_tools_fp/share/colcon-core/packages/gentact_ros_tools_fp)
+[1.394s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.395s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.395s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.395s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.398s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.398s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.398s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.408s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.409s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/local_setup.ps1'
+[1.409s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/_local_setup_util_ps1.py'
+[1.410s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/setup.ps1'
+[1.411s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/local_setup.sh'
+[1.411s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/_local_setup_util_sh.py'
+[1.412s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/setup.sh'
+[1.412s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/local_setup.bash'
+[1.413s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/setup.bash'
+[1.414s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/local_setup.zsh'
+[1.414s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/setup.zsh'

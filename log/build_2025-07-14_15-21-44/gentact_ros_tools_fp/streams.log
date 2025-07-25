@@ -1,0 +1,41 @@
+[0.665s] Invoking command in '/home/caleb/ros2_ws/src/gentact_ros_tools_fp': PROMPT_COMMAND=history -a; history -n; PYTHONPATH=/home/caleb/ros2_ws/src/gentact_ros_tools_fp/build/gentact_ros_tools_fp/prefix_override:/home/caleb/.local/lib/python3.8/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/gentact_ros_tools_fp/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/gentact_ros_tools_fp build --build-base /home/caleb/ros2_ws/src/gentact_ros_tools_fp/build/gentact_ros_tools_fp/build install --record /home/caleb/ros2_ws/src/gentact_ros_tools_fp/build/gentact_ros_tools_fp/install.log --single-version-externally-managed install_data
+[0.872s] running egg_info
+[0.872s] creating build/gentact_ros_tools_fp/gentact_ros_tools_fp.egg-info
+[0.872s] writing build/gentact_ros_tools_fp/gentact_ros_tools_fp.egg-info/PKG-INFO
+[0.873s] writing dependency_links to build/gentact_ros_tools_fp/gentact_ros_tools_fp.egg-info/dependency_links.txt
+[0.873s] writing entry points to build/gentact_ros_tools_fp/gentact_ros_tools_fp.egg-info/entry_points.txt
+[0.873s] writing requirements to build/gentact_ros_tools_fp/gentact_ros_tools_fp.egg-info/requires.txt
+[0.873s] writing top-level names to build/gentact_ros_tools_fp/gentact_ros_tools_fp.egg-info/top_level.txt
+[0.874s] writing manifest file 'build/gentact_ros_tools_fp/gentact_ros_tools_fp.egg-info/SOURCES.txt'
+[0.896s] reading manifest file 'build/gentact_ros_tools_fp/gentact_ros_tools_fp.egg-info/SOURCES.txt'
+[0.896s] writing manifest file 'build/gentact_ros_tools_fp/gentact_ros_tools_fp.egg-info/SOURCES.txt'
+[0.897s] running build
+[0.897s] running build_py
+[0.897s] creating /home/caleb/ros2_ws/src/gentact_ros_tools_fp/build/gentact_ros_tools_fp/build
+[0.897s] creating /home/caleb/ros2_ws/src/gentact_ros_tools_fp/build/gentact_ros_tools_fp/build/lib
+[0.897s] creating /home/caleb/ros2_ws/src/gentact_ros_tools_fp/build/gentact_ros_tools_fp/build/lib/gentact_ros_tools_fp
+[0.897s] copying gentact_ros_tools_fp/__init__.py -> /home/caleb/ros2_ws/src/gentact_ros_tools_fp/build/gentact_ros_tools_fp/build/lib/gentact_ros_tools_fp
+[0.897s] running install
+[0.897s] running install_lib
+[0.898s] creating /home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/gentact_ros_tools_fp/lib/python3.8/site-packages/gentact_ros_tools_fp
+[0.898s] copying /home/caleb/ros2_ws/src/gentact_ros_tools_fp/build/gentact_ros_tools_fp/build/lib/gentact_ros_tools_fp/__init__.py -> /home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/gentact_ros_tools_fp/lib/python3.8/site-packages/gentact_ros_tools_fp
+[0.898s] byte-compiling /home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/gentact_ros_tools_fp/lib/python3.8/site-packages/gentact_ros_tools_fp/__init__.py to __init__.cpython-38.pyc
+[0.899s] running install_data
+[0.899s] creating /home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/gentact_ros_tools_fp/share/ament_index
+[0.899s] creating /home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/gentact_ros_tools_fp/share/ament_index/resource_index
+[0.899s] creating /home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/gentact_ros_tools_fp/share/ament_index/resource_index/packages
+[0.900s] copying resource/gentact_ros_tools_fp -> /home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/gentact_ros_tools_fp/share/ament_index/resource_index/packages
+[0.900s] copying package.xml -> /home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/gentact_ros_tools_fp/share/gentact_ros_tools_fp
+[0.900s] creating /home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/gentact_ros_tools_fp/share/gentact_ros_tools_fp/launch
+[0.900s] copying launch/self-cap.launch.py -> /home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/gentact_ros_tools_fp/share/gentact_ros_tools_fp/launch
+[0.900s] creating /home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/gentact_ros_tools_fp/share/gentact_ros_tools_fp/urdf
+[0.900s] copying urdf/link5.xacro -> /home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/gentact_ros_tools_fp/share/gentact_ros_tools_fp/urdf
+[0.900s] copying urdf/self-cap-base.xacro -> /home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/gentact_ros_tools_fp/share/gentact_ros_tools_fp/urdf
+[0.900s] creating /home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/gentact_ros_tools_fp/share/gentact_ros_tools_fp/meshes
+[0.900s] copying meshes/link5.dae -> /home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/gentact_ros_tools_fp/share/gentact_ros_tools_fp/meshes
+[0.924s] copying meshes/link5.stl -> /home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/gentact_ros_tools_fp/share/gentact_ros_tools_fp/meshes
+[0.925s] running install_egg_info
+[0.927s] Copying build/gentact_ros_tools_fp/gentact_ros_tools_fp.egg-info to /home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/gentact_ros_tools_fp/lib/python3.8/site-packages/gentact_ros_tools_fp-0.0.0-py3.8.egg-info
+[0.928s] running install_scripts
+[0.940s] writing list of installed files to '/home/caleb/ros2_ws/src/gentact_ros_tools_fp/build/gentact_ros_tools_fp/install.log'
+[0.958s] Invoked command in '/home/caleb/ros2_ws/src/gentact_ros_tools_fp' returned '0': PROMPT_COMMAND=history -a; history -n; PYTHONPATH=/home/caleb/ros2_ws/src/gentact_ros_tools_fp/build/gentact_ros_tools_fp/prefix_override:/home/caleb/.local/lib/python3.8/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/caleb/ros2_ws/src/gentact_ros_tools_fp/install/gentact_ros_tools_fp/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/gentact_ros_tools_fp build --build-base /home/caleb/ros2_ws/src/gentact_ros_tools_fp/build/gentact_ros_tools_fp/build install --record /home/caleb/ros2_ws/src/gentact_ros_tools_fp/build/gentact_ros_tools_fp/install.log --single-version-externally-managed install_data
